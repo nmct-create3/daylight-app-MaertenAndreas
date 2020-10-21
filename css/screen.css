@@ -288,6 +288,10 @@ input::placeholder {
     margin-right: .5rem;
 }
 
+.js-sun::before {
+    content: attr(data-time);
+}
+
 /*
     Component: App
     --
